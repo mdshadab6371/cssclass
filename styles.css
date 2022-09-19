@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    color: white;
+}
+.custom{
+    text-decoration: underline;
+}
+.custom{
+    text-decoration: overline;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin: 40px 0;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+    
+}
+
+.mydiv {
+    width: 100%;
+    height: 80%;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.mydiv div{
+display: inline-block;
+width: 40%;
+padding: 20px 30px;
+
+}
+.btn{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: black;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+img{
+    width: 90%;
+}
+
+
+/* Mera Aabout section yaha se start ho rah ahau */
+.about{
+    padding: 50px;
+    background-color: bisque;
+}
+.about .about-body p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    /* color: white; */
+}
+
+p{
+    color: red;
+    /* text-align: left;
+    text-align: right;
+    text-align: center; */
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    /* Capitalize first letter of each word */
+    text-transform: capitalize;
+    font-size: 10px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 900;
+
+}
